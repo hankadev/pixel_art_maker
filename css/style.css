@@ -11,8 +11,9 @@ h1, h3 {
   margin: 1em;
 }
 
-input[type=number] {
+input[type=number], input[type=color] {
   width: 3em;
+  height: 1.5em;
 }
 
 input[type=submit] {
