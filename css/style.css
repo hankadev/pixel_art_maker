@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  background-color: #aab;
+  color: #125;
+}
+
+h1, h3 {
+  margin: 1em;
+}
+
+input[type=number] {
+  width: 3em;
+}
+
+input[type=submit] {
+  border-radius: 10px;
+  color: #125;
+  font-weight: bold;
+  padding: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ad;
+  cursor: pointer;
+  border-color: #8ad;
+}
