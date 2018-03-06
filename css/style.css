@@ -18,6 +18,7 @@ input[type=number], input[type=color] {
   border-radius: 5px;
   font-weight: bold;
   text-align: center;
+  margin-top: 10px;
 }
 
 input[type=submit] {
@@ -25,6 +26,7 @@ input[type=submit] {
   color: #125;
   font-weight: bold;
   padding: 5px;
+  margin-top: 10px;
 }
 
 input[type=submit]:hover {
@@ -36,6 +38,7 @@ input[type=submit]:hover {
 table {
   margin: 0 auto;
   border-collapse: collapse;
+  border: 5px solid #125;
 }
 
 td {
