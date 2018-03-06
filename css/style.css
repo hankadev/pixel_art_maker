@@ -32,3 +32,15 @@ input[type=submit]:hover {
   cursor: pointer;
   border-color: #8ad;
 }
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+}
