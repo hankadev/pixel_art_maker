@@ -47,7 +47,7 @@ submitButton.addEventListener("click", function(event) {
 })
 
 /**
- * on hover add or remove the bgcolor
+ * on click add or remove the bgcolor
  */
 canvas.addEventListener("click", function(event) {
   let gridColor = document.getElementById("gridColor").value;

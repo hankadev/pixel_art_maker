@@ -32,7 +32,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #8ad;
   cursor: pointer;
-  border-color: #8ad;
 }
 
 table {
