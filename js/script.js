@@ -1,5 +1,5 @@
 (function() {
-  "use strict"
+  "use strict";
   let canvas = document.querySelector(".canvas");
   let submitButton = document.querySelector("#submitButton");
 
@@ -10,7 +10,6 @@
      */
     let gridHeight = document.getElementById("gridHeight").value * 1;
     let gridWidth = document.getElementById("gridWidth").value * 1;
-
     /**
      * appending tr and td to the canvas table
      */
@@ -32,33 +31,29 @@
       }
     }
   }
-
   /**
    *  make grid automatically when DOM is loaded
    */
-  document.addEventListener('DOMContentLoaded', makeGrid());
-
+  document.addEventListener("DOMContentLoaded", makeGrid());
   /**
    * add event listener on submit button
    * and pass it the clearGrid and makeGrid functions
    */
   submitButton.addEventListener("click", function(event) {
-    event.preventDefault()
+    event.preventDefault();
     clearCanvas();
     makeGrid();
-  })
-
+  });
   /**
    * on click add or remove the bgcolor
    */
   canvas.addEventListener("click", function(event) {
     let gridColor = document.getElementById("gridColor").value;
     let cell = event.target;
-
     if (cell.hasAttribute("style")) {
       cell.removeAttribute("style");
     } else {
       cell.style.backgroundColor = gridColor;
     }
-  })
+  });
 }());
